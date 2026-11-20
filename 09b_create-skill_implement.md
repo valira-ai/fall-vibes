@@ -1,6 +1,6 @@
 # 09b · Create a skill: implement
 
-Turns `07_implement_v2-specific.md` plus whatever we learned during implementation (e.g. "you narrated the change in comments again") into `/implement`. The lessons are the valuable part, because they're specific to how *you* want to work.
+Turns `07_implement_v2-specific.md`, plus whatever you had to correct during implementation, into `/implement`.
 
 ```text
 Create a project skill at .claude/skills/implement/SKILL.md for the implementation step of the CLAUDE.md workflow, so next time I can run /implement <feature-folder>.

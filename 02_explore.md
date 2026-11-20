@@ -1,8 +1,6 @@
 # 02 · Explore the repo
 
-Understand before you change. The numbered bug list from this step is what `05_plan-bugfix_v1-vague.md` refers to, so run 05 v1 in the same session.
-
-The environment doesn't exist yet (step 03), so the agent may not be able to run pandas. That's fine: it should say which claims it couldn't verify.
+Understand the code before you change it. Keep this session open: step 05 v1 uses the bug list from here.
 
 ```text
 I'm new to this repo. Explore it and explain it to me. Don't change any files.
@@ -15,5 +13,3 @@ I'm new to this repo. Explore it and explain it to me. Don't change any files.
 
 Be concise. Number the bugs so I can refer to them later.
 ```
-
-Last time the agent found 4 bugs: the empty-selection warning never shows, falling GDP gets a green arrow, `nanB`/`nanx` for missing data, and regions mixed in with countries shown as bare codes. It also flagged unreadable chart axes (`1,960`, raw dollars). If a participant's agent misses some of them, that's a discussion point, not a failure.

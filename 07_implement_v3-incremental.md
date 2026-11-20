@@ -1,8 +1,8 @@
-# 07 · Implement · v3 (incremental, human in the loop)
+# 07 · Implement · v3 (incremental)
 
-The same as v2, but one bug at a time, with you checking each step in the browser. Slower, but you see every change and can steer early. Good for showing that you choose how much autonomy to give, and that it can differ per task.
+Like v2, but one bug at a time. You check each fix in the browser before the agent moves on.
 
-Start the app yourself first, in a separate terminal: `.venv/bin/streamlit run streamlit_app.py` (on Windows: `.venv\Scripts\streamlit run streamlit_app.py`). It hot-reloads on save.
+First start the app in a separate terminal: `.venv/bin/streamlit run streamlit_app.py` (Windows: `.venv\Scripts\streamlit run streamlit_app.py`). It reloads when files change.
 
 ```text
 Implement the plan in <feature-folder>, one bug at a time, in the plan's order. Read the latest plan and all plan reviews first. Where a review corrects the plan, the review wins.

@@ -1,6 +1,6 @@
 # 12 · Implement the feature, with the skill
 
-Go back to the planning session (it has your answers to the open questions), or tell a fresh session your answers first.
+Run it in the planning session, which has your answers to the open questions. In a new session, give your answers first.
 
 ```text
 /implement <feature-folder>

@@ -1,8 +1,8 @@
 # 09a · Create a skill: review-plan
 
-Turns the long prompt from step 06 into `/review-plan`. A skill is a markdown file with instructions the agent loads only when it's needed, either because you call it by name or because its description matches the task.
+Turns the review prompt from 06 into `/review-plan`. A skill is a markdown file with instructions. The agent always sees its description and loads the rest only when needed.
 
-If you're in a new session, paste the prompt from `06_review-plan_long.md` where it says so. (The agent can't read it itself, because the prompts live in a separate repo.)
+In a new session, the agent will ask you to paste the prompt from `06_review-plan_long.md`.
 
 ```text
 I've been using a long plan review prompt, and we'll review more plans today. Turn it into a project skill so I can just run /review-plan.
@@ -16,5 +16,3 @@ I've been using a long plan review prompt, and we'll review more plans today. Tu
 
 Show me the skill when you're done. Don't run it yet.
 ```
-
-What to point out: the skill's `description` is the only part the agent always sees; the body is loaded on demand. That's why skills don't bloat the context the way a huge CLAUDE.md does.

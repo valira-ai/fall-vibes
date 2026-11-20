@@ -1,6 +1,6 @@
 # 07 · Implement · v2 (specific)
 
-Says which documents count, what wins when they conflict, and what "done" means. Works in the planning session or a fresh one. Replace `<feature-folder>`.
+Says which documents to read, what wins when they conflict, and what "done" means. Works in the planning session or a new one. Replace `<feature-folder>`.
 
 ```text
 Implement the change planned in <feature-folder>. This is the implementation step of the CLAUDE.md workflow.

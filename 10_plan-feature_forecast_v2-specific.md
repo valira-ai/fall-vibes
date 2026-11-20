@@ -1,6 +1,6 @@
 # 10 · Feature: GDP forecast · v2 (specific)
 
-The prompt a data scientist would write: evaluation, baselines, and leakage come first, the pretty chart second. Good things to look for in the plan review: does the backtest really exclude data after the cutoff (including parameter selection)? Does the model beat "last value carried forward"?
+Evaluation first, chart second: a backtest, naive baselines to beat, and no leakage from future data.
 
 ```text
 Plan a new "GDP forecast" section for the dashboard. This is the planning step of the CLAUDE.md workflow: write the plan to docs/ and don't change any code.

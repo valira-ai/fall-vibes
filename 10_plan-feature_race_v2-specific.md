@@ -1,6 +1,6 @@
 # 10 · Feature: GDP car race · v2 (specific)
 
-Same feature, with the decisions that came up last time surfaced up front.
+Same feature, with the key decisions asked up front.
 
 ```text
 Plan a new "GDP race" section for the dashboard, above "GDP over time". This is the planning step of the CLAUDE.md workflow: write the plan to docs/ and don't change any code.

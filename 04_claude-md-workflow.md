@@ -1,6 +1,6 @@
 # 04 · Put our workflow into CLAUDE.md
 
-CLAUDE.md isn't only documentation of the code. It's also where you tell the agent *how you want to work*. From here on, every change goes plan → plan review → implementation → code review, each step leaving a file in `docs/`.
+CLAUDE.md can also tell the agent how you want to work. From here on, every change goes plan → plan review → implementation → code review, and each step leaves a file in `docs/`.
 
 ~~~text
 Add a "Workflow (always follow)" section to CLAUDE.md that describes how we'll work from now on. Keep it short and precise.
@@ -16,8 +16,3 @@ Every file is prefixed with a timestamp YYYY-MM-DD-HHMM_ so files sort chronolog
 
 Include a small example of the folder layout. Also add a "Rules" section with one rule: don't write comments that restate what the code does; only comment where the code isn't self-explanatory.
 ~~~
-
-What to point out:
-- The plan files are a paper trail you can review, diff, and hand to a *different* agent. That's what makes the separate review sessions in 06 and 08 possible.
-- "Only move on when I agree" keeps the human in the loop. Remove it and see how far the agent runs on its own.
-- The rule about comments came from last time: agents love to narrate their changes in comments.

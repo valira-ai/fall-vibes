@@ -1,6 +1,6 @@
 # 05 · Plan the bug fix · v2 (symptoms)
 
-Describes the bugs the way a user would report them: what you see, not why it happens. Works in any session, even if exploration missed some bugs.
+Describes the bugs the way a user would: what you see, not why it happens. Works in any session.
 
 ```text
 Plan a fix for these bugs in the dashboard. Follow the workflow in CLAUDE.md: this is the planning step, so write the plan to docs/ and don't change any code.

@@ -1,8 +1,6 @@
-# 06 · Review the plan (the long prompt)
+# 06 · Review the plan
 
-Run it in a **fresh session**, ideally with a different model or tool (last time: Codex). The reviewer should not share the planner's context or assumptions.
-
-This prompt is deliberately long and thorough: it's what a good review actually needs. Point that out, then ask: *"We'll review two more plans today. Do you want to paste this three times?"* That's the setup for skills in step 09, where it becomes `/review-plan`.
+Run it in a new session, ideally with a different model or tool, so the reviewer doesn't share the planner's assumptions. It's long on purpose: this is what a thorough review needs. In step 09 we turn it into a skill.
 
 Replace `<feature-folder>` with the folder from step 05, e.g. `docs/2026-10-21-1005_fix-dashboard-bugs`.
 

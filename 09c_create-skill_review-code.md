@@ -1,6 +1,6 @@
 # 09c · Create a skill: review-code
 
-Turns `08_code-review.md` into `/review-code`. It's named `review-code`, not `code-review`, so it doesn't clash with Claude Code's built-in `/code-review`. A good moment to discuss when to use a built-in skill and when to write your own.
+Turns `08_code-review.md` into `/review-code`. The name avoids a clash with the built-in `/code-review`.
 
 ```text
 Create a project skill at .claude/skills/review-code/SKILL.md for the code review step of the CLAUDE.md workflow, so I can run /review-code <feature-folder>.

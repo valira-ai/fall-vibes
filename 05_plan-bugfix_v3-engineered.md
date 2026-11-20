@@ -1,6 +1,6 @@
 # 05 · Plan the bug fix · v3 (engineered)
 
-Same bugs as v2, plus the constraints and expectations an experienced engineer would give a new colleague. Look at what the extra lines buy: verified facts instead of guesses, no surprise dependencies, and decisions handed back to you as open questions.
+Same bugs as v2, plus the constraints you'd give a new colleague: check facts by running code, no new dependencies, and leave product decisions to you.
 
 ```text
 Plan a fix for these bugs in the dashboard. Follow the workflow in CLAUDE.md: this is the planning step, so write the plan to docs/ and don't change any code.

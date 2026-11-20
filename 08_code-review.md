@@ -1,8 +1,8 @@
 # 08 · Code review
 
-Run it in a **fresh session**, ideally a different model or tool than the one that wrote the code.
+Run it in a new session, ideally with a different model or tool than the one that wrote the code.
 
-Built-in alternatives: `/code-review` in Claude Code, `/review` in Codex. They're good at finding bugs in a diff, but they don't know about our `docs/` workflow or the plan. This prompt checks the code *against the plan* and writes the review into the feature folder. That's the gap the `review-code` skill (09c) fills.
+The built-in `/code-review` (Claude Code) and `/review` (Codex) find bugs in a diff, but they don't know our plan. This prompt checks the code against the plan and saves the review in the feature folder.
 
 ```text
 Review the uncommitted changes in this repo (git diff, plus any new untracked files) as the code review step of the CLAUDE.md workflow. Don't change any code.

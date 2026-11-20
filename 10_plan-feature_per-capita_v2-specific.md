@@ -1,6 +1,6 @@
 # 10 · Feature: GDP per capita · v2 (specific)
 
-A data engineering task: get a second dataset, join it, and check the join. Facilitator: download the population CSV before the workshop in case the network is bad, and tell participants where you put it.
+Needs a second dataset. The prompt says where to get it, how to store it, and how to check the join.
 
 ```text
 Plan adding GDP per capita to the dashboard. This is the planning step of the CLAUDE.md workflow: write the plan to docs/ and don't change any code.

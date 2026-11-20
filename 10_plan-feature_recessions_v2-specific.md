@@ -1,6 +1,6 @@
 # 10 · Feature: recession detection · v2 (specific)
 
-An EDA and domain-knowledge task with no new dependencies. Numbers to check the result against are in the README.
+The data is GDP in current US$, so a big drop can be a currency crash, not a recession. The prompt makes the agent deal with that.
 
 ```text
 Plan a feature that detects and highlights big GDP drops. This is the planning step of the CLAUDE.md workflow: write the plan to docs/ and don't change any code.
