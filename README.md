@@ -42,3 +42,23 @@ Run reviews (06, 08, 11, 13) in a new session, so the reviewer doesn't share the
 | Forecast | `10_plan-feature_forecast_*` | Modelling, backtests, baselines |
 | GDP per capita | `10_plan-feature_per-capita_*` | Adding a second dataset and joining it |
 | Recession detection | `10_plan-feature_recessions_*` | Data exploration and domain sense |
+
+## Bonus: ELI5 output style
+
+[`output-styles/ELI5.md`](output-styles/ELI5.md) makes Claude Code answer in short, plain sentences: what it did, whether it worked, and what you do next. Coding behavior stays the same.
+
+Claude Code looks for output styles in two places:
+
+- `~/.claude/output-styles/` for all your projects
+- `.claude/output-styles/` inside a repo for that project only
+
+Copy the file into one of them:
+
+```bash
+mkdir -p ~/.claude/output-styles
+cp output-styles/ELI5.md ~/.claude/output-styles/
+```
+
+Then pick "ELI5" as the output style in `/config`. To make it the default, add `"outputStyle": "ELI5"` to `~/.claude/settings.json`. To turn it off, pick "Default" in `/config`.
+
+Codex and other tools don't have output styles. Paste the text below the `---` block into your user-level instructions instead, e.g. `~/.codex/AGENTS.md`.
